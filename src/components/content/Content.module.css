@@ -1,0 +1,9 @@
+.content {
+  min-height: 100%;
+  background-color: var(--main-color);
+  padding-top: 100px;
+  padding-left: 220px;
+  width: 100%;
+  box-sizing: border-box;
+}
+

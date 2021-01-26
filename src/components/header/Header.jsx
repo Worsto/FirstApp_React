@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './Nav'
-import TopBar from './TopBar'
 import styles from './Header.module.css';
+import logo from "./logo.svg";
 
 const Header = () => {
   return (
       <header className={styles.header}>
-        <TopBar/>
-        <Navbar/>
+        <a href="#s" className={styles.link}>
+          <img src={logo} alt="Logo" className={styles.logo}></img>
+        </a>
       </header>
   )
 }

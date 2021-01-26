@@ -1,7 +1,17 @@
 .header {
-  position: fixed;
+  height: 80px;
   width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-rows: 80px 1fr;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  background-color: var(--top-bar-color);
+}
+
+.link {
+  display: block;
+}
+
+.logo {
+  display: block;
+  width: 115px;
+  margin: 0 auto;
 }

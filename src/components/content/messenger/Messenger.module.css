@@ -1,0 +1,12 @@
+.messenger {
+    display: flex;
+}
+
+.chatsList {
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+    list-style: none;
+    border-right: 1px solid var(--type);
+    max-width: max-content;
+}

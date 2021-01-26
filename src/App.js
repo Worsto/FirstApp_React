@@ -1,14 +1,16 @@
-import './App.css';
+import styles from './App.module.css'
 import Header from './components/header/Header'
 import Content from './components/content/Content'
 import {BrowserRouter} from "react-router-dom";
+import Navbar from "./components/header/Nav";
 
-function App() {
+function App(props) {
   return (
       <BrowserRouter>
-        <div className="wrapper">
+        <div className={styles.app}>
           <Header/>
-          <Content/>
+          <Navbar/>
+          <Content data={props.data}/>
         </div>
       </BrowserRouter>
   );

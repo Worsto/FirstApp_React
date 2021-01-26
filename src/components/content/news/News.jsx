@@ -3,9 +3,9 @@ import styles from './News.module.css';
 
 const News = (props) => {
   return (
-      <div>
-        news {props.text}
-      </div>
+      <section>
+        <h2>News {props.text}</h2>
+      </section>
   )
 }
 
